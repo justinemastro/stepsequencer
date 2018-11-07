@@ -1,5 +1,5 @@
-int ledPins[4] = { 2, 3, 4, 5 };
-int buttonPins[4] = { 33, 34, 35, 36 };
+int ledPins[4] = { 2, 3, 4, 6 };
+int buttonPins[4] = { 33, 34, 35, 37 };
 boolean lastButtonState[4] = { LOW, LOW, LOW, LOW };
 boolean buttonState[4] = { LOW, LOW, LOW, LOW };
 boolean on[4] = { false, false, false, false };
